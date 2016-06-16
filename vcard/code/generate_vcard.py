@@ -25,14 +25,16 @@ vo.add('tel')
 vo.tel.type_param = "cell"
 vo.tel.value = "+47 4717 0724"
 
-vo.add('title')
-vo.title.value = 'PhD fellow'
-
 vo.add('source')
-vo.source.value = 'https://raw.githubusercontent.com/dvolgyes/personal/master/vcard/ntnu.vcf'
+#https://git.io/vo08t
+vo.source.value = 'https://git.io/vo08t'
+#vo.source.value = 'https://raw.githubusercontent.com/dvolgyes/personal/master/vcard/ntnu.vcf'
 
 with open('../ntnu_simplified.vcf','wt') as f:
     f.write(vo.serialize())
+
+vo.add('title')
+vo.title.value = 'PhD fellow'
 
 vo.add('key')
 vo.key.type_param='PGP'
