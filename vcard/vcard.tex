@@ -1,0 +1,65 @@
+\documentclass[oneside]{scrartcl}
+\usepackage[paperheight=50mm,paperwidth=90mm,left=0mm,right=0mm, top=0mm, bottom=0mm]{geometry}
+\usepackage{graphicx}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\name}{David Völgyes}
+\newcommand{\position}{Ph.D. fellow}
+\newcommand{\faculty}{Faculty of Computer Science and Media Technology}
+\newcommand{\university}{Norwegian University of Science and Technology}
+\newcommand{\address}{P.O. Box 191, N-2802 Gjøvik, Norway}
+\newcommand{\mobile}{+47 47 17 07 24}
+\newcommand{\email}{david.volgyes@ntnu.no}
+\newcommand{\pgp}{PGP/GPG:}
+\newcommand{\pgpa}{B808 02CD C30F 3DB5 74E2}
+\newcommand{\pgpb}{1D11 20C9 5735 {372B 19AD}}
+
+\newcommand{\coli}{8}
+\newcommand{\colii}{19}
+
+\begin{document}
+
+\setlength{\unitlength}{1mm}
+
+\begin{picture}(90,50)(3.9,0)
+
+	\put(5,45){\line(1,0){80}}
+
+	\put(\coli,40){\textbf{\name}}
+	\put(\coli,36.5){\tiny \position}
+
+	\put(\coli,31){\tiny \faculty}
+	\put(\coli,28){\tiny \university}
+
+	\put(\coli,23){\tiny E-mail:}
+	\put(\colii,23){\tiny \email}
+	\put(\coli,20.5){\tiny Cell:}
+	\put(\colii,20.5){\tiny \mobile}
+	\put(\coli,18){\tiny Address:}
+	\put(\colii,18){\tiny \address}
+
+	\put(\coli,15.5){\tiny ORCID:}
+	\put(\colii,15.5){\tiny \texttt http://orcid.org/0000-0001-9723-5532}
+
+
+	\put(\coli,11){\tiny \texttt \pgp}
+	\put(\colii,11){\tiny {\texttt{\pgpa}}}
+	\put(\colii,9){\tiny {\texttt{\pgpb}}}
+
+	\put(5,5){\line(1,0){80}}
+
+	\put(75,10){\rotatebox{90}{\includegraphics[width=3cm]{ntnu.png}}}
+\end{picture}
+\clearpage
+
+% Back side
+
+\begin{picture}(90,50)(3.9,0)
+	\put(70,10){\rotatebox{90}{{\tiny vCard: \texttt https://git.io/vo08t}}}
+	\put(20,0){\rotatebox{90}{\includegraphics[width=5cm]{ntnu_simplified.png}}}
+\end{picture}
+
+
+\end{document}

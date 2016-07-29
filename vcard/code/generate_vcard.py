@@ -43,6 +43,9 @@ vo.key.value="https://raw.githubusercontent.com/dvolgyes/personal/master/pgp/ntn
 vo.add('url')
 vo.url.value = "https://no.linkedin.com/in/davidvolgyes"
 
+#vo.add('url')
+#vo.url.value = "http://orcid.org/0000-0001-9723-5532"
+
 vo.add('org')
 vo.org.value = ["Faculty of Computer Science and Media Technology","Norwegian University of Science and Technology"]
 
