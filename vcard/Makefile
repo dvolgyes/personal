@@ -10,7 +10,7 @@ qr:
 
 optimize: qr
 	@qr <ntnu_simplified.vcf --factory=svg-path --error-correction=L --optimize=2 >ntnu_simplified.svg
-	@inkscape ntnu_simplified.svg -E ntnu_simplified.eps --export-ignore-filters --export-ps-level=3
+	@inkscape ntnu_simplified.svg -E ntnu_simplified.eps --export-ignore-filters
 
 pdf: optimize
 	@pdflatex vcard.tex
