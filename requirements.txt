@@ -1,3 +1,4 @@
 qrcode
 vobject
+Pillow
 
