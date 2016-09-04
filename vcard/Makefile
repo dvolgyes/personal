@@ -5,7 +5,8 @@ default: pdf
 qr:
 	@make -C code
 	@qr <ntnu_simplified.vcf --error-correction=L --optimize=2 >ntnu_simplified.png
-	@optipng ntnu_simplified.png -o9 -clobber
+	@optipng ntnu_simplified.png -o9 --force -out ntnu_simplified_optimized.png
+	@mv ntnu_simplified_optimized.png ntnu_simplified.png
 
 optimize: qr
 	@qr <ntnu_simplified.vcf --factory=svg-path --error-correction=L --optimize=2 >ntnu_simplified.svg
