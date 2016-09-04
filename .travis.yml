@@ -27,7 +27,7 @@ addons:
 #before_install:
 
 install:
-  - travis_wait pip install requirements.txt
+  - travis_wait pip install -r requirements.txt
 
 script:
   - make
