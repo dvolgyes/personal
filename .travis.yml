@@ -4,13 +4,15 @@ language: python
 
 python:
   - "3.4"
+  - "3.5"
+
 
 notifications:
   email: false
 
-dist: trusty
+dist: stable trusty
 
-sudo: false
+sudo: required
 
 cache:
   timeout: 1500
@@ -23,8 +25,6 @@ addons:
       - texlive-full
       - optipng
       - inkscape
-
-#before_install:
 
 install:
   - travis_wait pip install -r requirements.txt
