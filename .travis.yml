@@ -10,7 +10,9 @@ python:
 notifications:
   email: false
 
-dist: stable trusty
+dist:
+  - stable
+  - trusty
 
 sudo: required
 
