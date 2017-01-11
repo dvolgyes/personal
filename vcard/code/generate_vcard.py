@@ -47,7 +47,7 @@ vo.url.value = "https://no.linkedin.com/in/davidvolgyes"
 #vo.url.value = "http://orcid.org/0000-0001-9723-5532"
 
 vo.add('org')
-vo.org.value = ["Faculty of Computer Science and Media Technology","Norwegian University of Science and Technology"]
+vo.org.value = ["Department of Computer Science","Norwegian University of Science and Technology"]
 
 with open('../ntnu.vcf','wt') as f:
     f.write(vo.serialize())
