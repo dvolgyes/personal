@@ -1,0 +1,253 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{fontawesome}
+\usepackage[scale=.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\usepackage{tikz}
+%\usepackage{hyperref}
+
+\usepackage{mathptmx}
+\usepackage[11pt]{moresize}
+
+\firstname{David} % Your first name
+\familyname{Völgyes} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+
+\address{Machine Learning Section\\ Department of Informatics\\University of Oslo\\}{}
+\mobile{+47-47-17-07-24}
+\email{david.volgyes@ieee.org}
+
+
+%% \github{github.com/KevinDennyII} 
+
+%%\extrainfo{
+%%  \httplink{https://www.codechef.com/users/priyanka_pps}
+%%\homepage{https://github.com/priyankapps/} {https://github.com/priyankapps/}}
+
+\begin{document}
+
+
+\makecvtitle 
+
+
+
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2015--2018}{Ph.D. in Computer Science}{NTNU,Norway}{}{}{Topic: Image quality in forensic CT images}  % Arguments not required can be left empty
+\cventry{2002--2008}{M.Sc. Physicist}{Eotvos University, Budapest, Hungary}{}{}{Topic: Computer simulations of species abundance models}  % Arguments not required can be left empty
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+%---\section{Experience}
+
+\section{Communication}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\cvitemwithcomment{English}{Working proficiency}{}
+\cvitemwithcomment{Norwegian}{Intermediate}{}
+\cvitemwithcomment{Hungarian}{Native}{}
+
+\section{Technical Skills}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+\cvitem{Programming}{5+ years Python \& C++, several years in shell scripts and Java}
+\cvitem{Frameworks}{Machine learning frameworks, physics simulations, HPC}
+\cvitem{Other}{Linux system administration}
+
+\par}
+
+
+%--\cventry{June'18--Present}{Intern}{}{}{}{Indian Institute of Technology, Delhi\\
+%--\textbf{Objective}: To create the official website for their Makerspace Lab facility\\
+%---\textbf{Group Size}: 6\\
+ %--To create a website for Makerspace  Lab which helps student in scheduling tools of the facility and giving tutorial on how to use them. It will also tell the student about who are trained in any particular tool.  \\}
+
+
+%----------------------------------------------------------------------------------------
+%   Skills SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%   Masters SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work experience}
+\cventry{2018--2020}{Postdoc in machine learning}{}{UiO, Dep. of Informatics, DSB group}{}
+{\textbf{Main research areas}: Semantic segmentation (cancer detection, heart segmentation), model robustness, 
+semi-supervised learning.
+}
+
+\cventry{2015--2018}{Ph.D. in computer science}{}{NTNU}{Dep. of Computer Science, Oslo, Norway}{
+\textbf{Topic}: Image quality in forensic CT imaging\\
+\textbf{Main supervisor}: Marius Pedersen
+}
+\cventry{2013--2015}{Freelancing}{}{}{}{}
+\cventry{2011--2013}{Research scientist}{COMPET project}{UiO}{Dep. of Physics,Oslo, Norway}{
+\textbf{Tasks}: Image reconstruction (CUDA/Python), embedded programming
+}
+\cventry{2009--2011}{Software engineer}{}{Mediso Ltd.}{Budapest, Hungary}
+{\textbf{Tasks}: applied research (image reconstruction, physics simulation), embedded programming (C++)
+\textbf{Administrative roles}: leading the PET software team for 1 year
+}
+\cventry{2008--2009}{Java software developer}{}{Flexiton Ltd.}{Budapest, Hungary}
+{\textbf{Tasks}: user interface, database programming}
+
+
+%------------------------------------------------
+
+
+%\section{Major Courses Undertaken}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%{\small
+%\cvitem{Computer Science}{ Computer Graphics and Multimedia, Artificial Intelligence, Design and Analysis of Algorithms, Theory of Computation, Operating Systems, Programming Languages, Database Management System, Computer Architecture, Discrete Mathematics, Data Structures.
+%}
+
+%\cvitem{Mathematics}{ Statistical Methods, Probability, Differential Calculus, Linear Algebra, Matrix Theory, Complex Analysis, Vector Calculus.
+%}
+%\par}
+
+%----------------------------------------------------------------------------------------
+%   Coursework SECTION
+%----------------------------------------------------------------------------------------
+\section{Awards}
+\cventry{2013}{MedTech Prisen, 3rd place}{COMPET team, UiO}{}{}{\url{https://www.mn.uio.no/fysikk/om/aktuelt/aktuelle-saker/2013/medtech2013.html}}
+\cventry{2010}{Innovation Grand Prize of Hungary 2010}{NanoPET team}{Mediso Ltd.}{}{\url{http://www.mediso.com/prizes.php?eventId=86}}
+
+\clearpage
+
+
+
+
+
+
+\section{Soft skills}
+{\small
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{1}{team player}
+\cvitem{2}{etc.}
+\cvitem{3}{etc.}
+
+\par}
+
+\section{Soft skills}
+{\small
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{1}{team player}
+\cvitem{2}{etc.}
+\cvitem{3}{etc.}
+
+\par}
+
+%----------------------------------------------------------------------------------------
+%   COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+
+%\cvitemwithcomment{Spanish}{Basic}{}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%   INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Baseball}
+
+%----------------------------------------------------------------------------------------
+%   COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
